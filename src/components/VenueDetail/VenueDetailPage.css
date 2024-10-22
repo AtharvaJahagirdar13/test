@@ -1,0 +1,435 @@
+/* .venue-detail-page-custom {
+  padding: 20px;
+}
+
+.venue-details-container-custom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.venue-info-custom {
+  width: 50%;
+}
+
+.timeslots-custom ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.venue-image-custom {
+  width: 40%;
+}
+
+.venue-image-custom img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.maps-button-custom {
+  background-color: #4CAF50; 
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.cart-section-custom {
+  margin-top: 20px;
+}
+
+.add-to-cart-button-custom {
+  background-color: #4CAF50; 
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.review-section-custom {
+  margin-top: 40px;
+}
+
+.reviews-list-custom ul {
+  list-style-type: none;
+  padding: 0;
+} 
+  */
+  .venue-detail-page-custom {
+    padding: 20px;
+    background-color: #F9FAFB;
+  }
+  
+  .venue-details-container-custom {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .venue-info-custom {
+    width: 60%;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .venue-info-custom:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .timeslots-custom {
+    margin-top: 20px;
+  }
+  
+  .timeslot-list-custom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .timeslot-button-custom,
+  .sport-button-custom {
+    background-color: #3B82F6;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .timeslot-button-custom:hover,
+  .sport-button-custom:hover {
+    background-color: #1E3A8A;
+  }
+  
+  .timeslot-button-custom.selected,
+  .sport-button-custom.selected {
+    background-color: #1E3A8A;
+  }
+  
+  .venue-image-custom {
+    width: 35%;
+    text-align: center;
+  }
+  
+  .venue-image-custom img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .maps-button-custom {
+    background-color: #10B981;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .maps-button-custom:hover {
+    background-color: #065F46;
+  }
+  
+  .calendar-section-custom {
+    margin-top: 20px;
+  }
+  
+  .react-datepicker {
+    font-family: Arial, sans-serif;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+  }
+  
+  .react-datepicker__header {
+    background-color: #3B82F6;
+    color: white;
+  }
+  
+  .react-datepicker__current-month,
+  .react-datepicker__day-name {
+    color: white;
+  }
+  
+  .react-datepicker__day--selected {
+    background-color: #3B82F6;
+    color: white;
+  }
+  
+  .react-datepicker__day:hover {
+    background-color: #E0F2FE;
+  }
+  
+  .sports-buttons-custom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .cart-section-custom {
+    margin-top: 20px;
+  }
+  
+  .add-to-cart-button-custom {
+    background-color: #F59E0B;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart-button-custom:hover {
+    background-color: #B45309;
+  }
+  
+  .review-section-custom {
+    margin-top: 40px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #E5E7EB;
+    background-color: #F3F4F6;
+  }
+  
+  textarea:focus {
+    border-color: #3B82F6;
+    outline: none;
+  }
+  
+  button {
+    transition: background-color 0.3s ease;
+  }
+  
+  .reviews-list-custom {
+    margin-top: 20px;
+  }
+  
+  .reviews-list-custom ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .reviews-list-custom ul li {
+    background-color: #E0F2FE;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reviews-list-custom ul li p {
+    color: #1E3A8A;
+  }
+  
+  .popup-custom {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #1b5e20;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .popup-custom button {
+    background-color: #00e676;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 1024px) {
+    .venue-details-container-custom {
+      flex-direction: column;
+    }
+  
+    .venue-info-custom,
+    .venue-image-custom {
+      width: 100%;
+    }
+  
+    .venue-info-custom {
+      margin-top: 20px;
+    }
+  
+    .maps-button-custom {
+      margin-bottom: 20px;
+    }
+  }
+  
+.venue-info-custom {
+  width: 60%;
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.venue-info-custom h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.venue-info-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.venue-info-left,
+.venue-info-right {
+  width: 48%; /* Adjust as needed */
+}
+
+.sports-buttons-custom,
+.calendar-section-custom,
+.timeslots-custom,
+.cart-section-custom {
+  margin-bottom: 20px;
+}
+
+.sports-buttons-custom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.calendar-section-custom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timeslot-list-custom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-section-custom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-to-cart-button-custom {
+  width: 100%;
+  max-width: 200px;
+}
+
+@media (max-width: 768px) {
+  .venue-info-content {
+    flex-direction: column;
+  }
+
+  .venue-info-left,
+  .venue-info-right {
+    width: 100%;
+  }
+}
+
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: flex-end;
+  z-index: 1000;
+}
+
+.sidebar {
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.sidebar-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.proceed-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.proceed-button:hover {
+  background-color: #0056b3;
+}
+
+.cart-counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.quantity-button {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cart-counter span {
+  margin: 0 10px;
+  font-size: 16px;
+}

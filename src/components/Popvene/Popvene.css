@@ -1,0 +1,45 @@
+.popular-sports-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .sports-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .sport-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .sport-card:hover {
+    transform: scale(1.05); /* Enlarge the card */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .sport-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .sport-details {
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .sport-details h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  

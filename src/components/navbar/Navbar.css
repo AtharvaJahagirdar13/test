@@ -1,0 +1,40 @@
+nav{
+    width: 100%;
+    color: white;
+    padding: 4px 0;   
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    background-color: #4CAF50; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000;
+    padding: 10px 0;
+}
+h1{
+    width: 180px; 
+    cursor: pointer;  
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 20px;
+    font-size: 16px;
+}
+.nav-cart-count{
+    width:22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+    color: white;
+}
+
+

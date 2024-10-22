@@ -1,0 +1,89 @@
+/* Cart Page Container */
+.cart-page-container {
+    max-width: 800px; /* Set max width for the cart */
+    margin: 0 auto; /* Center the cart page */
+    padding: 20px; /* Add padding */
+    background-color: #f9f9f9; /* Light background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  }
+  
+  /* Heading Style */
+  .cart-page-container h1 {
+    font-size: 28px; /* Font size for the heading */
+    color: #333; /* Dark gray color */
+    margin-bottom: 20px; /* Space below the heading */
+  }
+  
+  /* Cart Items Container */
+  .cart-items-container {
+    margin-top: 20px; /* Space above the cart items */
+  }
+  
+  /* Individual Cart Item */
+  .cart-item {
+    display: flex; /* Flexbox layout for items */
+    align-items: center; /* Center vertically */
+    background-color: #fff; /* White background for items */
+    border: 1px solid #e0e0e0; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Padding inside each item */
+    margin-bottom: 15px; /* Space below each item */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Light shadow for depth */
+  }
+  
+  /* Cart Item Image */
+  .cart-item-image {
+    width: 80px; /* Fixed width for images */
+    height: 80px; /* Fixed height for images */
+    border-radius: 5px; /* Rounded corners for images */
+    object-fit: cover; /* Cover to maintain aspect ratio */
+    margin-right: 15px; /* Space to the right of the image */
+  }
+  
+  /* Cart Item Details */
+  .cart-item-details {
+    flex: 1; /* Flex to take remaining space */
+  }
+  
+  /* Remove Button */
+  .remove-item-button {
+    background-color: #ff4d4d; /* Red background for remove button */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition effect */
+  }
+  
+  /* Remove Button Hover Effect */
+  .remove-item-button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+  }
+  
+  /* Proceed to Book Button */
+  .proceed-to-book-button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px 20px; /* Padding */
+    cursor: pointer; /* Pointer cursor */
+    margin-top: 20px; /* Space above button */
+    font-size: 18px; /* Larger font size */
+    transition: background-color 0.3s ease; /* Transition effect */
+  }
+  
+  /* Proceed to Book Button Hover Effect */
+  .proceed-to-book-button:hover {
+    background-color: #388E3C; /* Darker green on hover */
+  }
+  
+  /* Empty Cart Message */
+  .cart-page-container p {
+    font-size: 18px; /* Font size for empty cart message */
+    color: #777; /* Light gray color */
+    text-align: center; /* Center the text */
+  }
+  
